@@ -2,12 +2,12 @@
 import React, { useMemo, useState } from "react";
 
 const productsData = [
-  { id: 1, name: "Lotus Embroidered Sling Bag", price: 750, category: "Bags", image: "public/Lotus Embroidered Sling Bag.png" },
-  { id: 2, name: "Swing Motif Madhubani Bag", price: 750, category: "Bags", image: "public/Swing Motif Madhubani Bag.png" },
-  { id: 3, name: "Fish Motif Handcrafted Pouch", price: 200, category: "Pouches", image: "public/Fish Motif Handcrafted Pouch.jpg" },
-  { id: 4, name: "Turquoise Bird Art Sling", price: 1000, category: "Bags", image: "public/Turquoise Bird Art Sling.png" },
-  { id: 5, name: "Red Folk Art Crossbody", price: 1000, category: "Bags", image: "public/Red Folk Art Crossbody.png" },
-  { id: 6, name: "Madhubani Painting Artwork", price: 2000, category: "Paintings", image: "public/Madhubani Painting Artwork.png" },
+  { id: 1, name: "Lotus Embroidered Sling Bag", price: 750, category: "Bags", image: "/public/LotusBag.png" },
+  { id: 2, name: "Swing Motif Madhubani Bag", price: 750, category: "Bags", image: "/public/SwingBag.png" },
+  { id: 3, name: "Fish Motif Handcrafted Pouch", price: 200, category: "Pouches", image: "/public/FishPouch.jpg" },
+  { id: 4, name: "Turquoise Bird Art Sling", price: 1000, category: "Bags", image: "/public/TurquoiseSling.png" },
+  { id: 5, name: "Red Folk Art Crossbody", price: 1000, category: "Bags", image: "/public/RedCrossbody.png" },
+  { id: 6, name: "Madhubani Painting Artwork", price: 2000, category: "Paintings", image: "/public/MadhubaniArtwork.png" },
 ];
 
 export default function Store() {
