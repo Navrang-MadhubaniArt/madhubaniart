@@ -20,7 +20,7 @@ export default function Store() {
   const categories = useMemo(() => [...new Set(productsData.map((p) => p.category))], []);
 
   const generateWhatsAppLink = () => {
-    const phoneNumber = "919315891229";
+    const phoneNumber = "917765869751";
     const items = cart
       .map((item, i) => `${i + 1}. ${item.name} (${item.category}) - ₹${item.price}`)
       .join("%0A");
